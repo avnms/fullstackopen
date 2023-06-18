@@ -1,0 +1,69 @@
+form {
+  /* Center the form on the page */
+  width: 400px;
+  margin: 0 auto;
+
+  /* form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size and alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+  By default, textareas have a monospace font */
+  font-size: 1em;
+  font-family: Poppins, sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align button with the text fields */
+  padding-left: 90px;
+}
+
+button {
+  /* This extra margin represent rought the same as the space
+  between the labels and their text fields */
+  margin-left: 0.5em;
+  font-family: Poppins, sans-serif;
+}
